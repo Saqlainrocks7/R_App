@@ -3,12 +3,9 @@
 
 # aliapp
 
-<!-- badges: start -->
-
-[![R-CMD-check](https://github.com/Saqlainrocks7/R_App/workflows/R-CMD-check/badge.svg)](https://github.com/Saqlainrocks7/R_App/actions)
-<!-- badges: end -->
-
-The goal of aliapp is to …
+The goal of the package ‘aliapp’ is to visualize and explore the 1973 US
+Arrests data using an interactive dashboard made by R and Shiny. The
+dataset used here is an in-built dataset in base R.
 
 ## Installation
 
@@ -20,38 +17,17 @@ You can install the development version of aliapp from
 devtools::install_github("Saqlainrocks7/R_App")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
+Summary of the Dataset
 
 ``` r
-library(aliapp)
-## basic example code
+summary(USArrests)
+#>      Murder          Assault         UrbanPop          Rape      
+#>  Min.   : 0.800   Min.   : 45.0   Min.   :32.00   Min.   : 7.30  
+#>  1st Qu.: 4.075   1st Qu.:109.0   1st Qu.:54.50   1st Qu.:15.07  
+#>  Median : 7.250   Median :159.0   Median :66.00   Median :20.10  
+#>  Mean   : 7.788   Mean   :170.8   Mean   :65.54   Mean   :21.23  
+#>  3rd Qu.:11.250   3rd Qu.:249.0   3rd Qu.:77.75   3rd Qu.:26.18  
+#>  Max.   :17.400   Max.   :337.0   Max.   :91.00   Max.   :46.00
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+Here are some functionalities of the app shown below:
