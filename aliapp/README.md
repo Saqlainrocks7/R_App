@@ -31,3 +31,9 @@ summary(USArrests)
 ```
 
 Here are some functionalities of the app shown below:
+
+![](pics/home.png)
+
+![](pics/statewise.png)
+
+![](pics/map.png)
