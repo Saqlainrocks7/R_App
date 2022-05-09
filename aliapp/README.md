@@ -9,7 +9,7 @@ dataset used here is an in-built dataset in base R.
 
 ## Website for the package
 
-Below is the link to the website where the package is documented. You have to click on 'Artcles' tab located at the top to see the documentation.
+Below is the link to the website where the package is documented. You have to click on 'Articles' tab located at the top to see the documentation.
 https://saqlainrocks7.github.io/pkgdownaliapp/
 
 ## Installation
