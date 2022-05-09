@@ -35,7 +35,7 @@ summary(USArrests)
 #>  Max.   :17.400   Max.   :337.0   Max.   :91.00   Max.   :46.00
 ```
 
-Here are some functionalities of the app shown below:
+## Here are some functionalities of the app shown below:
 
 ![](pics/home.png)
 
