@@ -1,4 +1,15 @@
 
+<!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.com/Saqlainrocks7/R_App.svg?branch=main)](https://travis-ci.com/Saqlainrocks7/R_App)
+<!-- badges: end -->
+
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/Saqlainrocks7/R_App/workflows/R-CMD-check/badge.svg)](https://github.com/Saqlainrocks7/R_App/actions)
+<!-- badges: end -->
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # aliapp
