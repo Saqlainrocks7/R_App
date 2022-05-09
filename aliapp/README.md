@@ -18,6 +18,11 @@ The goal of the package ‘aliapp’ is to visualize and explore the 1973 US
 Arrests data using an interactive dashboard made by R and Shiny. The
 dataset used here is an in-built dataset in base R.
 
+## Website for the package
+
+Below is the link to the website where the package is documented. You have to click on 'Articles' tab located at the top to see the documentation.
+https://saqlainrocks7.github.io/pkgdownaliapp/
+
 ## Installation
 
 You can install the development version of aliapp from
@@ -28,7 +33,7 @@ You can install the development version of aliapp from
 devtools::install_github("Saqlainrocks7/R_App")
 ```
 
-Summary of the Dataset
+## Summary of the Dataset
 
 ``` r
 summary(USArrests)
@@ -41,7 +46,7 @@ summary(USArrests)
 #>  Max.   :17.400   Max.   :337.0   Max.   :91.00   Max.   :46.00
 ```
 
-Here are some functionalities of the app shown below:
+## Here are some functionalities of the app shown below:
 
 ![](pics/home.png)
 
